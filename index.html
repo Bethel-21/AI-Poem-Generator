@@ -5,35 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Poem Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>AI Poem Generator</header>
-    <div class="search-context">
-      <input
-        type="text"
-        placeholder="Enter the word here..."
-        autofocus
-        autocomplete="off"
-        required
-      />
-      <input type="submit" />
+    <div class="container">
+      <h1>AI Poem Generator</h1>
+      <form class="form">
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter the word here..."
+          autocomplete="off"
+          required
+        />
+        <input class="submit" type="submit" />
+      </form>
+      <div class="poem-place">
+        East to west, <br />
+        home is the best!
+      </div>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Bethel-21" target="_blank"
+          >Bethelhem Daniel Fenta</a
+        >
+        and is open-sourced on
+        <a href="https://github.com/Bethel-21/AI-Poem-Generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://incredible-scone-ffd528.netlify.app/">netlify.</a>
+      </footer>
     </div>
-    <div class="poem-place">
-      East to west, <br />
-      home is the best!
-    </div>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Bethel-21" target="_blank"
-        >Bethelhem Daniel Fenta</a
-      >
-      and is open-sourced on
-      <a href="https://github.com/Bethel-21/AI-Poem-Generator" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://incredible-scone-ffd528.netlify.app/">netlify.</a>
-    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
