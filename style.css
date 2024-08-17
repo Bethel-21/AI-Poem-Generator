@@ -36,6 +36,7 @@ form {
   border-radius: 20px;
   font-size: 20px;
   line-height: 1.5;
+  width: 350px;
 }
 .submit {
   padding: 20px;
