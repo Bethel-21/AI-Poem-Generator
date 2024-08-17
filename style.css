@@ -1,3 +1,59 @@
-h1{
-    color: red;
+body {
+  background-color: antiquewhite;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+a{
+    color: brown;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+}
+form {
+  padding: 10px;
+}
+.form {
+  background-color: black;
+  padding: 20px;
+  
+}
+.poem-place {
+  background: white;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.input {
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.submit {
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.submit:hover {
+  background-color: antiquewhite;
+}
+
+.poem-place {
+  background-color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  
 }
